@@ -1,0 +1,112 @@
+sudo apt update
+sudo apt install open-vm-tools
+sudo reboot
+-----------------------------------------
+readlink/bin/sh             نسخه شل
+echo $shell                           نسخه شل
+uname                                              سیستم عامل
+uname --help
+uname -a                                         اطلاعات سیستم
+uname -r                                                 نسخه کرنل سیستم
+echo texti ke neveshtim                                  چاپ یک متن
+echo gheymat yek \$ hast
+echo "gheymat yek $ hast"
+echo "gheymat \"yek $ hast"
+ls                                                              دایرکتوری های موجود          
+pwd                                                       الان کجا هستم
+cd Desktop/                               رفتن به دکستاپ
+cd -                                     رفتن به دایرکتوری سری قبلی
+cd ..                                             رفتن به فایل بالاتر
+mkdir  test                  ساختن پوشه                         
+-----------------------------------------
+type echo نوع خارجی یا داخلی بودن کامند 
+type uname
+bash --version چک کردن ورژن
+echo &BASH-VERSION  مطمئن تر برای شل فعلی
+echo $HISTFILE فایل ذخیره سازی حافظه
+cat /home/mahdi26/.bash_hostory نمایش هیستوری
+history نمایش هیستوری
+echo $HISTSIZE مقدار دستور های هیستوری 
+echo $HOME آدرس پیش فرض هوم
+echo $PS1
+echo $PATH
+set
+export
+env
+(
+name=ali  ست کردن متغیر
+echo $name
+)
+(
+mkdir path_test
+cd path_test
+echo "echo 'hello' " > hello.sh
+cat heloo.sh
+chmod +x hello.sh اگزتیوابل
+./hello.sh اشاره به داریکتوری کنونی
+)
+(
+echo $PATH
+PATH=echo $PATH+/home/mahdi26/path_test
+hello.sh
+)
+(
+PS1="mahdi26: "
+---------------------------------------------
+bash  وارد یک بش زیر شاخه شدن
+echo $SHLVL چک کردن که در کدام لایه هستیم
+exit خروج از لایه فعلی به لایه بالاتر
+export name="Ali" در درسترس بودن در بش های زیر شاخه
+unset name دیلیت وری ابل
+uname --help
+mkdir --help
+passwd --help
+man passwd دفترچه راهنما کامند
+man -k passwd راهنما هایی که داخل آنها pwd استفاده شده
+man -S 5 passwd انتخاب از لیست بالا
+man man
+زمانی که از bash خروج می کنیم هیستوری سیو می شود
+!! کامند قبلی اجرا میشه
+history
+!144 اجرا شماره کامند هیستوری
+nano test
+m = alt
+^ = control
+cp /etc/passwd .
+. = دایرکتوری فعلی 
+---------------------------------------------
+nano passwd
+alt + 3 کامنت کردن داخل ادیتور
+alt + G رفتن به خط
+---------------------------------------------
+cd .. یک پوشه بالا اومدن
+vim text.txt
+حالت های ویم
+normal mode ورود با زدن ایگزت
+insert mode زدن آی
+برای سیو کردن باید برگردیم به نرمال مود
+اون پایین :W بزنیم
+:q برای خروج
+
+h سمت چپ
+L سمت راست
+J سمت پایین
+K سمت بالا
+W پرش به کلمه بعد
+E رفتن به آخر کلمه
+B برگشت به کلمه قبلی
+shift + 6 رفتن به اول خط
+shift + 4 رفتن به اخر خط
+
+G + G ابتدای فایل
+shift + G انتهای فایل
+شماره خط + G		 رفتن به اون خط   
+
+Y + Y کپی خط
+P پیست
+
+
+commend mode
+visual mode
+
+

